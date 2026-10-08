@@ -1,4 +1,4 @@
-package com.example.pertemuan4
+package com.example.act4
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -27,21 +27,5 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    ACT4Theme {
-        Greeting("Android")
     }
 }
