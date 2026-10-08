@@ -1,4 +1,4 @@
-package com.example.act4
+package com.example.pertemuan4
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -11,6 +11,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.act4.AktivitasPertama
 import com.example.act4.ui.theme.ACT4Theme
 
 class MainActivity : ComponentActivity() {
@@ -20,8 +21,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             ACT4Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    AktivitasPertama(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
